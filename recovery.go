@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"gopkg.in/baa.v1"
+	"github.com/go-baa/baa"
 )
 
 // Recovery returns a baa middleware which recovers from panics anywhere in the chain
